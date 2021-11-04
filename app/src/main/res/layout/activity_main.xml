@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android='http://schemas.android.com/apk/res/android'
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:weightSum="1"
+    android:paddingHorizontal="25dp"
+    >
+
+    <TextView
+        android:layout_marginTop="220dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I can do it!!"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <View
+        android:layout_weight="0.7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"/>
+
+    <Button
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_corner"
+        android:text="무료 계정 만들기"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="이미 계정이 있으신가요?"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+
+        />
+
+
+    <Button
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_corner_blue"
+        android:text="로그인"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+</LinearLayout>
